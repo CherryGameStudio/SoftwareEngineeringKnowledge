@@ -60,6 +60,8 @@ graph LR
 
     Docker -->|依赖| Linux
     Docker -->|用于| CI-CD
+    Docker -->|简化部署| 微服务
+    Docker Compose -->|编排| Docker
     Git -->|用于| CI-CD
     HTTP -->|基于| TCP-IP
     微服务 -->|使用| Docker
